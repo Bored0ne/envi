@@ -1,0 +1,40 @@
+{
+  "name": "envi",
+  "version": "1.0.0",
+  "description": "Environment variable manager tools",
+  "main": "index.js",
+  "bin": "./build/cli.js",
+  "scripts": {
+    "build": "pastel build",
+    "dev": "pastel dev",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pastel": "^1.0.3",
+    "ink": "^2.6.0",
+    "ink-testing-library": "^1.0.2",
+    "react": "^16.12.0",
+    "jest": "^24.9.0",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-jest": "^24.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bored0ne/envi.git"
+  },
+  "keywords": [
+    "environment",
+    "variable",
+    "manager",
+    "envi"
+  ],
+  "author": "Stephen Seaton-Blanchard",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Bored0ne/envi/issues"
+  },
+  "homepage": "https://github.com/Bored0ne/envi#readme"
+}
