@@ -1,12 +1,12 @@
 import React from "react";
-import {Index} from '../src/index';
+import List from '../commands/List';
 import {render} from 'ink-testing-library';
 
 describe('envi', function () {
-    it('should print out the help menu when called with help option', function () {
-        const {frames, rerender} = render(<Index help/>);
+    it('should show me a list of my stuff', function () {
+        const {frames, rerender} = render(<List/>);
         let renderedHelpMenu = frames.reduce((acc, frame) => {
-            return acc || frame.includes('Help')
+            return acc || frame.includes('key') || frame.includes('value')
         }, false)
     });
 });
